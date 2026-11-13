@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A6FAC65824B06F335125C8 /* MemberCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153AEBC081197078EF050952 /* MemberCreateViewController.swift */; };
+		09417E0EF827DF7E6D964F5A /* LockVideoService.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A4FE961F1BD32509E1FE69 /* LockVideoService.m */; };
+		105FB4B27ADE1CD8F502D192 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09260DA94E40DEBEE5DFA3 /* Extensions.swift */; };
+		10B32DC685DB46AE0956E3AF /* LockBLEService.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C73BA6C8E1C48DE36E21F9 /* LockBLEService.m */; };
+		14C9091075703F492687AF93 /* VideoLockPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA7BB8F5478204E0AB36EF1 /* VideoLockPanelViewController.swift */; };
+		180DE88136CA9EEF0574F8F5 /* AddUnlockMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E888423631BE975255A9598C /* AddUnlockMethodViewController.swift */; };
+		19E7EEC663CDA8BB3B0288E2 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B49C50ED0AB6DD2AB4801C /* Models.swift */; };
+		1BEB9C88FE57ABFCFFEFD3A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171493BC4E4C9429B1D3DE1D /* LaunchScreen.storyboard */; };
+		2414A59579349173E7A5308F /* WifiLockPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC5794CAFF4AF4257772354 /* WifiLockPanelViewController.swift */; };
+		2F95330DF8D84AAFDCF0B31A /* VideoPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB945CA12EDE7A8176ED2B3 /* VideoPreviewViewController.swift */; };
+		3251559265429B9FAF265679 /* MemberListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AE33BCB30902567D867C22 /* MemberListViewController.swift */; };
+		370B66324E0DC04C598BDEAA /* libPods-LockDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFD4DC60926800B2C19389D /* libPods-LockDemo.a */; };
+		42EE3FC0BDA48DFD810CE228 /* HomeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F1794CF735852DDDEB30C /* HomeListViewController.swift */; };
+		496DD166524E8C50ABF56935 /* UIComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E3B88603E3955100EEDCE0 /* UIComponents.swift */; };
+		6761BD835BDB6137D5CE7374 /* BLEPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2F807B389A7547A285ECC2 /* BLEPasswordViewController.swift */; };
+		6BD4CBA2674E858855AA2FF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E776588641D89A6783A375E9 /* AppDelegate.swift */; };
+		6BE76EE9B84699C558789246 /* TempPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF769F06B9AE9D9169AEA65 /* TempPasswordViewController.swift */; };
+		88CD722B87D6C82C98067AA0 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7823B4A1F7442120AB0428 /* AppConfig.swift */; };
+		97E8BE23F5EDDDE2EC19813F /* PairingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE5CF23B431D56277BCA320 /* PairingViewController.swift */; };
+		A5384C05F19E2D2A1EFD1141 /* LockBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = DD204345793CC956A774B32D /* LockBaseService.m */; };
+		A9BAAEAAA12D9487283C59D7 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10311D8E649DDC8BF200EA9 /* AppRouter.swift */; };
+		B3DD4C035249CDEDF0A40A06 /* LocalSecrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F27133CF8EA16A0985167 /* LocalSecrets.plist */; };
+		B5912E89AC91954A43A98013 /* UnlockRecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6107DE4102FFB97712459013 /* UnlockRecordsViewController.swift */; };
+		B7291727F9089960B0E57197 /* BLELockPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C53CC52417AAAF75CB5774 /* BLELockPanelViewController.swift */; };
+		BCFF1EF350521944378DB233 /* LockPairingService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC938C480E3B877DC4CA4BB /* LockPairingService.m */; };
+		CCC911FC721EAAA1AF1E3F22 /* VideoTempPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E0CDD337A6D49294E0023 /* VideoTempPasswordViewController.swift */; };
+		CEE80A2F74294547C093FF44 /* LockSDKSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E5BE18CFF76256D827B79C /* LockSDKSupport.m */; };
+		D5553DA7D718F1A80581D731 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B30A9B34BA61E39512AC183 /* Theme.swift */; };
+		D6444473B95DDD67EFF757FE /* MemberDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8AAD88F2E0C2BFB4863916 /* MemberDetailViewController.swift */; };
+		DC26A8F883971886134DB5A9 /* SetupRequiredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951C9BD190373699EE47E99 /* SetupRequiredViewController.swift */; };
+		E2F222CE0E5E11A79A9C2A27 /* thing_custom_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 97B71F263D149FBB4C98AE3C /* thing_custom_config.json */; };
+		E5D4B96CB81AF293DD5FD865 /* LockPanelComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78297BA566FDD05D5DE5EE21 /* LockPanelComponents.swift */; };
+		EEC45FB046AE0F43C41D7791 /* LocalSecrets.example.plist in Resources */ = {isa = PBXBuildFile; fileRef = C446C791CF898B18B7CFDF77 /* LocalSecrets.example.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		029F1794CF735852DDDEB30C /* HomeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListViewController.swift; sourceTree = "<group>"; };
+		0BB4033FBC98D48E85A83E42 /* LockBaseService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockBaseService.h; sourceTree = "<group>"; };
+		153AEBC081197078EF050952 /* MemberCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCreateViewController.swift; sourceTree = "<group>"; };
+		171493BC4E4C9429B1D3DE1D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B30A9B34BA61E39512AC183 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		1E7823B4A1F7442120AB0428 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		2235E40213BB274E10304BC5 /* LockVideoService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockVideoService.h; sourceTree = "<group>"; };
+		2AB945CA12EDE7A8176ED2B3 /* VideoPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreviewViewController.swift; sourceTree = "<group>"; };
+		3B54F08D2CF59E1B3D212FDA /* LockPairingService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockPairingService.h; sourceTree = "<group>"; };
+		535D498CD249854F43AE25E1 /* LockBLEService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockBLEService.h; sourceTree = "<group>"; };
+		6107DE4102FFB97712459013 /* UnlockRecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockRecordsViewController.swift; sourceTree = "<group>"; };
+		65E5BE18CFF76256D827B79C /* LockSDKSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockSDKSupport.m; sourceTree = "<group>"; };
+		6B09260DA94E40DEBEE5DFA3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6BC938C480E3B877DC4CA4BB /* LockPairingService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockPairingService.m; sourceTree = "<group>"; };
+		6CFD4DC60926800B2C19389D /* libPods-LockDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LockDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1F27133CF8EA16A0985167 /* LocalSecrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = LocalSecrets.plist; sourceTree = "<group>"; };
+		78297BA566FDD05D5DE5EE21 /* LockPanelComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockPanelComponents.swift; sourceTree = "<group>"; };
+		78965316192CE598E7D708D1 /* Pods-LockDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LockDemo.release.xcconfig"; path = "Target Support Files/Pods-LockDemo/Pods-LockDemo.release.xcconfig"; sourceTree = "<group>"; };
+		87AE33BCB30902567D867C22 /* MemberListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberListViewController.swift; sourceTree = "<group>"; };
+		8FE5CF23B431D56277BCA320 /* PairingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingViewController.swift; sourceTree = "<group>"; };
+		954C9DBEE1C2283C0B839280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		97B71F263D149FBB4C98AE3C /* thing_custom_config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = thing_custom_config.json; sourceTree = "<group>"; };
+		97DFA60DCD67A3075B170113 /* LockSDKSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockSDKSupport.h; sourceTree = "<group>"; };
+		98DD9F417F0A0478F62FB9FD /* LockDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LockDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		9B8AAD88F2E0C2BFB4863916 /* MemberDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberDetailViewController.swift; sourceTree = "<group>"; };
+		A1369FB7546EC5A6FDD9DB88 /* Pods-LockDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LockDemo.debug.xcconfig"; path = "Target Support Files/Pods-LockDemo/Pods-LockDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A4C73BA6C8E1C48DE36E21F9 /* LockBLEService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockBLEService.m; sourceTree = "<group>"; };
+		A6E92F98FFE2C83531C067D7 /* LockDemo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = LockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA7BB8F5478204E0AB36EF1 /* VideoLockPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLockPanelViewController.swift; sourceTree = "<group>"; };
+		B10311D8E649DDC8BF200EA9 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		B3A4FE961F1BD32509E1FE69 /* LockVideoService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockVideoService.m; sourceTree = "<group>"; };
+		B9E3B88603E3955100EEDCE0 /* UIComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponents.swift; sourceTree = "<group>"; };
+		BDF769F06B9AE9D9169AEA65 /* TempPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempPasswordViewController.swift; sourceTree = "<group>"; };
+		C446C791CF898B18B7CFDF77 /* LocalSecrets.example.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = LocalSecrets.example.plist; sourceTree = "<group>"; };
+		C8C53CC52417AAAF75CB5774 /* BLELockPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLELockPanelViewController.swift; sourceTree = "<group>"; };
+		C951C9BD190373699EE47E99 /* SetupRequiredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupRequiredViewController.swift; sourceTree = "<group>"; };
+		CF2F807B389A7547A285ECC2 /* BLEPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEPasswordViewController.swift; sourceTree = "<group>"; };
+		CFC5794CAFF4AF4257772354 /* WifiLockPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiLockPanelViewController.swift; sourceTree = "<group>"; };
+		D5B49C50ED0AB6DD2AB4801C /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		DD204345793CC956A774B32D /* LockBaseService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockBaseService.m; sourceTree = "<group>"; };
+		E29E0CDD337A6D49294E0023 /* VideoTempPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTempPasswordViewController.swift; sourceTree = "<group>"; };
+		E776588641D89A6783A375E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E888423631BE975255A9598C /* AddUnlockMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUnlockMethodViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6E8ED41FA89B98D85E1ADD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370B66324E0DC04C598BDEAA /* libPods-LockDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C2B2E66E7D48D67FAEC3807 = {
+			isa = PBXGroup;
+			children = (
+				B895EE6C2D63E19F4FC38213 /* LockDemo */,
+				507DC8E467D758027AE3DDFD /* Products */,
+				54EFD79DD515B26DAF2E645F /* Pods */,
+				5519BDD8796BA95726CF83B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		507DC8E467D758027AE3DDFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6E92F98FFE2C83531C067D7 /* LockDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54EFD79DD515B26DAF2E645F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1369FB7546EC5A6FDD9DB88 /* Pods-LockDemo.debug.xcconfig */,
+				78965316192CE598E7D708D1 /* Pods-LockDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5519BDD8796BA95726CF83B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD4DC60926800B2C19389D /* libPods-LockDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B895EE6C2D63E19F4FC38213 /* LockDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DE69DEBBBF9C53A86588AADE /* App */,
+				F7EFA83055344AEA8FF4086E /* Support */,
+			);
+			path = LockDemo;
+			sourceTree = "<group>";
+		};
+		DE69DEBBBF9C53A86588AADE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E888423631BE975255A9598C /* AddUnlockMethodViewController.swift */,
+				1E7823B4A1F7442120AB0428 /* AppConfig.swift */,
+				E776588641D89A6783A375E9 /* AppDelegate.swift */,
+				B10311D8E649DDC8BF200EA9 /* AppRouter.swift */,
+				C8C53CC52417AAAF75CB5774 /* BLELockPanelViewController.swift */,
+				CF2F807B389A7547A285ECC2 /* BLEPasswordViewController.swift */,
+				6B09260DA94E40DEBEE5DFA3 /* Extensions.swift */,
+				029F1794CF735852DDDEB30C /* HomeListViewController.swift */,
+				954C9DBEE1C2283C0B839280 /* Info.plist */,
+				171493BC4E4C9429B1D3DE1D /* LaunchScreen.storyboard */,
+				C446C791CF898B18B7CFDF77 /* LocalSecrets.example.plist */,
+				6E1F27133CF8EA16A0985167 /* LocalSecrets.plist */,
+				78297BA566FDD05D5DE5EE21 /* LockPanelComponents.swift */,
+				153AEBC081197078EF050952 /* MemberCreateViewController.swift */,
+				9B8AAD88F2E0C2BFB4863916 /* MemberDetailViewController.swift */,
+				87AE33BCB30902567D867C22 /* MemberListViewController.swift */,
+				D5B49C50ED0AB6DD2AB4801C /* Models.swift */,
+				8FE5CF23B431D56277BCA320 /* PairingViewController.swift */,
+				C951C9BD190373699EE47E99 /* SetupRequiredViewController.swift */,
+				BDF769F06B9AE9D9169AEA65 /* TempPasswordViewController.swift */,
+				1B30A9B34BA61E39512AC183 /* Theme.swift */,
+				97B71F263D149FBB4C98AE3C /* thing_custom_config.json */,
+				B9E3B88603E3955100EEDCE0 /* UIComponents.swift */,
+				6107DE4102FFB97712459013 /* UnlockRecordsViewController.swift */,
+				AEA7BB8F5478204E0AB36EF1 /* VideoLockPanelViewController.swift */,
+				2AB945CA12EDE7A8176ED2B3 /* VideoPreviewViewController.swift */,
+				E29E0CDD337A6D49294E0023 /* VideoTempPasswordViewController.swift */,
+				CFC5794CAFF4AF4257772354 /* WifiLockPanelViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F7EFA83055344AEA8FF4086E /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				0BB4033FBC98D48E85A83E42 /* LockBaseService.h */,
+				DD204345793CC956A774B32D /* LockBaseService.m */,
+				535D498CD249854F43AE25E1 /* LockBLEService.h */,
+				A4C73BA6C8E1C48DE36E21F9 /* LockBLEService.m */,
+				98DD9F417F0A0478F62FB9FD /* LockDemo-Bridging-Header.h */,
+				3B54F08D2CF59E1B3D212FDA /* LockPairingService.h */,
+				6BC938C480E3B877DC4CA4BB /* LockPairingService.m */,
+				97DFA60DCD67A3075B170113 /* LockSDKSupport.h */,
+				65E5BE18CFF76256D827B79C /* LockSDKSupport.m */,
+				2235E40213BB274E10304BC5 /* LockVideoService.h */,
+				B3A4FE961F1BD32509E1FE69 /* LockVideoService.m */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD6848AA1F0C279F5237C1E9 /* LockDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A55BA387E6349200A280CEA /* Build configuration list for PBXNativeTarget "LockDemo" */;
+			buildPhases = (
+				E700A7B4432CF11B245BB894 /* [CP] Check Pods Manifest.lock */,
+				D25B0B57C30DA68F5E3953EB /* Sources */,
+				3F6E1EB0518AD2059CE251E7 /* Resources */,
+				D6E8ED41FA89B98D85E1ADD1 /* Frameworks */,
+				80C46CDF04C4200B36F2173B /* [CP] Embed Pods Frameworks */,
+				94119374B67263609BB7A976 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockDemo;
+			productName = LockDemo;
+			productReference = A6E92F98FFE2C83531C067D7 /* LockDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D7EB5854C18E2248A4A43F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DD6848AA1F0C279F5237C1E9 = {
+						DevelopmentTeam = V2TAJKB5WT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 769590C20B47C00362032C11 /* Build configuration list for PBXProject "LockDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 3C2B2E66E7D48D67FAEC3807;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 507DC8E467D758027AE3DDFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD6848AA1F0C279F5237C1E9 /* LockDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F6E1EB0518AD2059CE251E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEB9C88FE57ABFCFFEFD3A3 /* LaunchScreen.storyboard in Resources */,
+				EEC45FB046AE0F43C41D7791 /* LocalSecrets.example.plist in Resources */,
+				B3DD4C035249CDEDF0A40A06 /* LocalSecrets.plist in Resources */,
+				E2F222CE0E5E11A79A9C2A27 /* thing_custom_config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80C46CDF04C4200B36F2173B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LockDemo/Pods-LockDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LockDemo/Pods-LockDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LockDemo/Pods-LockDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94119374B67263609BB7A976 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LockDemo/Pods-LockDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LockDemo/Pods-LockDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LockDemo/Pods-LockDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E700A7B4432CF11B245BB894 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LockDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D25B0B57C30DA68F5E3953EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180DE88136CA9EEF0574F8F5 /* AddUnlockMethodViewController.swift in Sources */,
+				88CD722B87D6C82C98067AA0 /* AppConfig.swift in Sources */,
+				6BD4CBA2674E858855AA2FF3 /* AppDelegate.swift in Sources */,
+				A9BAAEAAA12D9487283C59D7 /* AppRouter.swift in Sources */,
+				B7291727F9089960B0E57197 /* BLELockPanelViewController.swift in Sources */,
+				6761BD835BDB6137D5CE7374 /* BLEPasswordViewController.swift in Sources */,
+				105FB4B27ADE1CD8F502D192 /* Extensions.swift in Sources */,
+				42EE3FC0BDA48DFD810CE228 /* HomeListViewController.swift in Sources */,
+				10B32DC685DB46AE0956E3AF /* LockBLEService.m in Sources */,
+				A5384C05F19E2D2A1EFD1141 /* LockBaseService.m in Sources */,
+				BCFF1EF350521944378DB233 /* LockPairingService.m in Sources */,
+				E5D4B96CB81AF293DD5FD865 /* LockPanelComponents.swift in Sources */,
+				CEE80A2F74294547C093FF44 /* LockSDKSupport.m in Sources */,
+				09417E0EF827DF7E6D964F5A /* LockVideoService.m in Sources */,
+				02A6FAC65824B06F335125C8 /* MemberCreateViewController.swift in Sources */,
+				D6444473B95DDD67EFF757FE /* MemberDetailViewController.swift in Sources */,
+				3251559265429B9FAF265679 /* MemberListViewController.swift in Sources */,
+				19E7EEC663CDA8BB3B0288E2 /* Models.swift in Sources */,
+				97E8BE23F5EDDDE2EC19813F /* PairingViewController.swift in Sources */,
+				DC26A8F883971886134DB5A9 /* SetupRequiredViewController.swift in Sources */,
+				6BE76EE9B84699C558789246 /* TempPasswordViewController.swift in Sources */,
+				D5553DA7D718F1A80581D731 /* Theme.swift in Sources */,
+				496DD166524E8C50ABF56935 /* UIComponents.swift in Sources */,
+				B5912E89AC91954A43A98013 /* UnlockRecordsViewController.swift in Sources */,
+				14C9091075703F492687AF93 /* VideoLockPanelViewController.swift in Sources */,
+				2F95330DF8D84AAFDCF0B31A /* VideoPreviewViewController.swift in Sources */,
+				CCC911FC721EAAA1AF1E3F22 /* VideoTempPasswordViewController.swift in Sources */,
+				2414A59579349173E7A5308F /* WifiLockPanelViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F6E823E73D130042FD4A29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1369FB7546EC5A6FDD9DB88 /* Pods-LockDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2TAJKB5WT;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LockDemo/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lock.set;
+				PRODUCT_NAME = LockDemo;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "LockDemo/Support/LockDemo-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26780CA6CC85D77CB174F6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		77EC2337B64BF4AE0C7EF30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A965B548C9E032CE213584D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78965316192CE598E7D708D1 /* Pods-LockDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2TAJKB5WT;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LockDemo/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lock.set;
+				PRODUCT_NAME = LockDemo;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "LockDemo/Support/LockDemo-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		769590C20B47C00362032C11 /* Build configuration list for PBXProject "LockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77EC2337B64BF4AE0C7EF30F /* Debug */,
+				26780CA6CC85D77CB174F6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7A55BA387E6349200A280CEA /* Build configuration list for PBXNativeTarget "LockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6E823E73D130042FD4A29E /* Debug */,
+				A965B548C9E032CE213584D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D7EB5854C18E2248A4A43F3 /* Project object */;
+}
